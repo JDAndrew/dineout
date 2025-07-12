@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dineout Menu</title>
+  <link rel="shortcut icon" href="LS20250702091419.png" type="image/x-icon">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#d97706',     // Warm orange
+            secondary: '#fef3c7',   // Light creamy background
+            accent: '#92400e',      // Deep brown-orange for highlights
+          },
+          fontFamily: {
+            sans: ['Segoe UI', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-secondary text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-primary text-white p-5 shadow-lg">
+    <div class="max-w-6xl mx-auto flex items-center space-x-4">
+      <img src="LS20250702091419.png" alt="Dineout Logo" class="h-14 w-14 rounded-full shadow-md" />
+      <div>
+        <h1 class="text-4xl font-bold">Dineout Menu</h1>
+        <p class="text-sm tracking-wide">Fresh & Delicious – Served Daily</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Menu -->
+  <main class="max-w-6xl mx-auto px-4 py-10">
+    
+    <!-- Section Template -->
+    <section class="mb-12">
+      <h2 class="text-3xl font-bold text-primary border-b-2 border-primary mb-6 pb-2">Dishes</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold text-accent">Chicken Biryani</h3>
+          <p class="text-gray-600 mt-1">Aromatic basmati rice cooked with marinated chicken and spices.</p>
+          <p class="text-primary font-bold mt-3">₹120</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold text-accent">Chicken Rice</h3>
+          <p class="text-gray-600 mt-1">Full of chicken and spices blended with basmati rice, continental style.</p>
+          <p class="text-primary font-bold mt-3">₹120</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold text-accent">Chicken 65 Biryani</h3>
+          <p class="text-gray-600 mt-1">Basmati rice paired with crispy Chicken 65 and aromatic spices.</p>
+          <p class="text-primary font-bold mt-3">₹250</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-3xl font-bold text-primary border-b-2 border-primary mb-6 pb-2">Combo Offer</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold text-accent">Chicken Biryani Combo</h3>
+          <p class="text-gray-600 mt-1">Chicken Biryani served with Coke (200ml).</p>
+          <p class="text-primary font-bold mt-3">₹220</p>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-3xl font-bold text-primary border-b-2 border-primary mb-6 pb-2">Desserts</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold text-accent">Chocolate Brownie</h3>
+          <p class="text-gray-600 mt-1">Served warm with a scoop of vanilla ice cream.</p>
+          <p class="text-primary font-bold mt-3">₹100</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold text-accent">Gulab Jamun</h3>
+          <p class="text-gray-600 mt-1">Soft syrup-soaked dough balls that melt in your mouth.</p>
+          <p class="text-primary font-bold mt-3">₹80</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-3xl font-bold text-primary border-b-2 border-primary mb-6 pb-2">Drinks</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold text-accent">Mango Lassi</h3>
+          <p class="text-gray-600 mt-1">Sweet mango yogurt drink, chilled and refreshing.</p>
+          <p class="text-primary font-bold mt-3">₹70</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold text-accent">Fresh Lime Soda</h3>
+          <p class="text-gray-600 mt-1">Your choice: sweet or salted – served chilled.</p>
+          <p class="text-primary font-bold mt-3">₹50</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white text-center text-sm text-gray-600 py-4 border-t border-gray-200">
+    &copy; 2025 Dineout. All rights reserved.
+  </footer>
+</body>
+</html>
